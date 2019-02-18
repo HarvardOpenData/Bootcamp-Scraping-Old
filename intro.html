@@ -8,8 +8,16 @@
                 color:red;
             }
         </style>
+        <script>
+            function onLoad() {
+                var myList = document.getElementById("myList");
+                var xyz = document.createElement("li");
+                xyz.innerText = "XYZ";
+                myList.appendChild(xyz);   
+            }
+        </script> 
     </head>
-    <body>
+    <body onload = "onLoad()">
         <h1>This is my header</h1>
 
         <b>I'm very bold!</b>
@@ -22,5 +30,12 @@
         <div class = "divider" id = "section1">Section 1</div>
         <div class = "divider" id = "section2">Section 2</div>
         <div id = "section3">Section 3</div>
+
+        <h3>Alphabet data that we want:</h3>
+        <ul id = "myList">
+            <li>ABC</li>
+            <li>DEF</li>
+            <li>GHI</li>
+        </ul>
     </body>
 </html>
