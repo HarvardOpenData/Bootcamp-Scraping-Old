@@ -12,6 +12,7 @@ HODB
 file1.txt
 file2.txt
 file3.txt
+fileA.txt
 notafile.txt
 
 =======
@@ -29,3 +30,13 @@ aaaabcc aabbbbc aacc a
 2 files found?
 24 files found?
 No files found.
+
+=== Exercises ===
+
+== Match HTML tags ==
+
+<a>This is a link</a>
+<a href='hodp.org'>This is a more complicated link</a>
+<div class='test_style'>Test</div>
+
+==
